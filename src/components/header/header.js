@@ -4,15 +4,15 @@ class HeaderComponent extends React.Component{
   render(){
     return(
       <header>
-        <div classname='Logo'>
+        <div className='logo'>
           LOGO
         </div>
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
+            <li className='first'><a href="#">Home</a></li>
             <li><a href="#">Escaperooms</a></li>
             <li><a href="#">Reserveren</a></li>
-            <li><a href="#">Contact</a></li>
+            <li className='last'><a href="#">Contact</a></li>
           </ul>
         </nav>
       </header>
