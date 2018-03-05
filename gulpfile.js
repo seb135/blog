@@ -14,7 +14,7 @@ gulp.task('compile_scss', function(){
   .pipe(minifyCSS())
   .pipe(rename({suffix:'.min'}))
   .pipe(changed(SCSS_DEST))
-  .pipe(gulp.des(SCSS_DEST));
+  .pipe(gulp.dest(SCSS_DEST));
 });
 
 gulp.task('watch_scss', function(){
