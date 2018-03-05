@@ -9,10 +9,10 @@ class HeaderComponent extends React.Component{
         </div>
         <nav>
           <ul>
-            <li>Home</li>
-            <li>Escaperooms</li>
-            <li>Reserveren</li>
-            <li>Contact</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Escaperooms</a></li>
+            <li><a href="#">Reserveren</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </nav>
       </header>
