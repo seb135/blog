@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import './assets/css/default.min.css';
 
 //components
-import HeaderComponent from './assets/components/header/header.js'
-import FooterComponent from './assets/components/footer/footer.js'
-import HomepageComponent from './assets/components/pages/homepage.js'
+import HeaderComponent from './components/header/header.js';
+import FooterComponent from './components/footer/footer.js';
+import HomepageComponent from './components/pages/homepage.js';
 
 class App extends Component {
   render() {
